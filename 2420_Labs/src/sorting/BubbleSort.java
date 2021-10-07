@@ -1,5 +1,10 @@
 package sorting;
-
+/**
+ * @author Garrett Knight
+ * CSIS 2420
+ * Week 4 Assignment
+ * This page uses the Bubble Sort
+ */
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
@@ -8,8 +13,6 @@ public class BubbleSort {
 
 	public static void main(String[] args) throws IOException {
 		
-		
-    
 		System.out.println("Bubble Sort\n");
 
 		String dataFile = "AccountNumbers.csv";
@@ -66,7 +69,7 @@ public class BubbleSort {
 	}
 
 	private static void bubbleSort(int[] array2Sort) {
-		
+		//Calculates nanoseconds during sort-time
 		int nanoDivisor = 1000000000;
 		int numIterations = 1000000000;
 		long total = 0;

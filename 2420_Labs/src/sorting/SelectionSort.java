@@ -1,5 +1,10 @@
 package sorting;
-
+/**
+ * @author Garrett Knight
+ * CSIS 2420
+ * Week 4 Assignment
+ * This page uses the Selection Sort
+ */
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
@@ -65,7 +70,7 @@ public class SelectionSort {
 	}
 
 	private static void selectionSort(int[] array2Sort) {
-	    
+		//Calculates nanoseconds during sort-time
 		int nanoDivisor = 1000000000;
 	    int numIterations = 1000000000;
 	    long total = 0;

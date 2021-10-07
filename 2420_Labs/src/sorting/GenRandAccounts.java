@@ -1,5 +1,10 @@
 package sorting;
-
+/**
+ * @author Garrett Knight
+ * CSIS 2420
+ * Week 4 Assignment
+ * This page determines the number of accounts generated.
+ */
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
