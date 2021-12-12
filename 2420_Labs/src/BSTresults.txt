@@ -1,0 +1,50 @@
+Binary Search Tree Timing
+
+Nodes = 10:
+
+PreOrder Traverse: Duration: 289,100 nanoseconds [0.0002891000 seconds]
+InOrder Traverse: Duration: 94,600 nanoseconds [0.0000946000 seconds]
+PostOrder Traverse: Duration: 110,900 nanoseconds [0.0001109000 seconds]
+
+Nodes = 100:
+
+PreOrder Traverse: Duration: 2,039,500 nanoseconds [0.0020395000 seconds]
+InOrder Traverse: Duration: 845,100 nanoseconds [0.0008451000 seconds]
+PostOrder Traverse: Duration: 681,700 nanoseconds [0.0006817000 seconds]
+
+Nodes = 1,000:
+
+PreOrder Traverse: Duration: 7,675,200 nanoseconds [0.0076752000 seconds]
+InOrder Traverse: Duration: 3,240,500 nanoseconds [0.0032405000 seconds]
+PostOrder Traverse: Duration: 4,076,400 nanoseconds [0.0040764000 seconds]
+
+Nodes = 10,000:
+
+PreOrder Traverse: Duration: 41,393,800 nanoseconds [0.0413938000 seconds]
+InOrder Traverse: Duration: 38,028,000 nanoseconds [0.0380280000 seconds]
+PostOrder Traverse: Duration: 29,882,200 nanoseconds [0.0298822000 seconds]
+
+Nodes = 100,000:
+
+PreOrder Traverse: Duration: 1,775,100 nanoseconds [0.0017751000 seconds]
+InOrder Traverse: Duration: 1,633,900 nanoseconds [0.0016339000 seconds]
+PostOrder Traverse: Duration: 1,529,600 nanoseconds [0.0015296000 seconds]
+
+Nodes = 1,000,000:
+
+PreOrder Traverse: Duration: 79,963,300 nanoseconds [0.0799633000 seconds]
+InOrder Traverse: Duration: 81,274,100 nanoseconds [0.0812741000 seconds]
+PostOrder Traverse: Duration: 84,776,700 nanoseconds [0.0847767000 seconds]
+
+Nodes = 10,000,000:
+
+Beyond threshold
+
+
+
+
+
+
+
+
+
